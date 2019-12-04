@@ -1,0 +1,27 @@
+{
+  "name": "@samokat/parcel-plugin-real-env",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:samokat-oss/parcel-plugin-real-env.git",
+  "author": "Igor Kamyshev <igor@kamyshev.me>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "@solid-soda/scripts": "^1.14.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn soda lint-staged",
+      "pre-push": "yarn soda lint",
+      "commit-msg": "yarn soda commitlint"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "s": "yarn soda"
+  }
+}
