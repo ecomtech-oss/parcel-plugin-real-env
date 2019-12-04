@@ -71,7 +71,7 @@ Be carefully, if you add **async** attribute, scripts can be executed in other o
 
 ## Limitations
 
-This is a really specific library. It transforms only **script** tags in `.html` files, which **src** ends `.env.js.` and starts with hash (`#`). If you want more flexible solution, try [parcel-plugin-html-root-syntax](https://github.com/Joe-Withey/parcel-plugin-html-root-syntax).
+This is a really specific library. It transforms only **script** tags in `.html` files, which **src** ends `.env.js` and starts with hash (`#`). If you want more flexible solution, try [parcel-plugin-html-root-syntax](https://github.com/Joe-Withey/parcel-plugin-html-root-syntax).
 
 ## Special thanks
 
