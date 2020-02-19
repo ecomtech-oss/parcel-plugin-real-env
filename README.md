@@ -76,3 +76,11 @@ This is a really specific library. It transforms only **script** tags in `.html`
 ## Special thanks
 
 Source code of this plugin based on [parcel-plugin-html-root-syntax](https://github.com/Joe-Withey/parcel-plugin-html-root-syntax). We just adapted code for our narrow specificity. Thanks, folks!
+
+## HowTo: Release
+
+1. Make your changes and commit it
+2. Run `yarn s release`
+3. Run `git push --follow-tags`
+4. Run `npm publish`
+5. Brilliant!
